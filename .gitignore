@@ -1,5 +1,4 @@
 # Dependencies
-node_modules/
 __pycache__/
 *.pyc
 
@@ -35,3 +34,6 @@ venv/
 dist/
 build/
 *.egg-info/
+
+# Node modules
+node_modules/
