@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  
+[build.environment]
+  NEXT_PUBLIC_API_URL = "https://your-backend-url.com"  # We'll update this once we deploy the backend
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
